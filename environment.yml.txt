@@ -1,0 +1,13 @@
+name: rdkit_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - rdkit
+  - python=3.9 # 안정적인 버전
+  - pip
+  - pip:
+    - streamlit
+    - pandas
+    - numpy
+    - plotly
