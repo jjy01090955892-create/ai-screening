@@ -4,7 +4,7 @@ channels:
   - defaults
 dependencies:
   - rdkit
-  - python=3.9 # 안정적인 버전
+  - python=3.9 
   - pip
   - pip:
     - streamlit
